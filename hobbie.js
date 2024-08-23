@@ -1,6 +1,8 @@
 //HOBBIES_SECTION
 const h1 = document.createElement("h1");
 h1.textContent = "My Hobbies";
+h1.style.display = "flex";
+h1.style;
 document.getElementById("hobbies").appendChild(h1);
 
 const hobbies = document.getElementById("hobbies");
