@@ -1,6 +1,7 @@
 //CONTACT_SECTION
 const h1 = document.querySelector("h1");
 h1.textContent = "My Contacts";
+h1.style.display = "flex";
 
 const contact = document.getElementById("contact");
 contact.style.display = "grid";
