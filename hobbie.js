@@ -1,4 +1,8 @@
 //HOBBIES_SECTION
+const h1 = document.createElement("h1");
+h1.textContent = "My Hobbies";
+document.getElementById("hobbies").appendChild(h1);
+
 const hobbies = document.getElementById("hobbies");
 hobbies.style.display = "grid";
 hobbies.style.justifyContent = "center";
