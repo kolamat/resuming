@@ -12,7 +12,7 @@ orderedLst.id = "hobbiesItems";
 document.getElementById("hobbies").appendChild(orderedLst);
 
 const list1 = document.createElement("li");
-list1.textContent = "list1";
+list1.textContent = "I love Playing Video Games.";
 document.getElementById("hobbiesItems").appendChild(list1);
 const list2 = document.createElement("li");
 list2.textContent = "list2";
