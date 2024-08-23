@@ -1,3 +1,7 @@
+const div = document.getElementById("div");
+div.style.display = "grid";
+div.style.justifyContent = "center";
+
 const span1 = document.getElementById("span1");
 span1.style.display = "flex";
 span1.style.alignItems = "center";
