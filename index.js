@@ -1,3 +1,7 @@
+const h1 = document.querySelector("h1");
+h1.style.display = "flex";
+h1.style.fontSize = "50px";
+
 const div = document.getElementById("div");
 div.style.display = "grid";
 div.style.justifyContent = "center";
