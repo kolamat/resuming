@@ -23,13 +23,3 @@ document.getElementById("hobbiesItems").appendChild(list3);
 const list4 = document.createElement("li");
 list4.textContent = "I love listening to Musics.";
 document.getElementById("hobbiesItems").appendChild(list4);
-
-const listItems = [
-  {
-    email: "jebba",
-  },
-];
-
-const list = document.createElement("li");
-list.textContent = { listItems };
-document.getElementById("hobbiesItems").appendChild(list);
