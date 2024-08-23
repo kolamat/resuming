@@ -1,4 +1,8 @@
 //CONTACT_SECTION
+const h1 = document.createElement("h1");
+h1.textContent = "My Contacts";
+document.querySelector("h1").appendChild(h1);
+
 const contact = document.getElementById("contact");
 contact.style.display = "grid";
 contact.style.justifyContent = "center";
@@ -6,10 +10,6 @@ contact.style.width = "100%";
 contact.style.fontSize = "33px";
 contact.style.fontWeight = "bold";
 contact.style.placeItems = "center";
-
-const h1 = document.createElement("h1");
-h1.textContent = "My Contacts";
-document.getElementById("contact").appendChild(h1);
 
 const orderedList = document.querySelector("ol");
 // orderedList.style.gap = "10px";
@@ -53,7 +53,7 @@ document.getElementById("mail").appendChild(hrMiddle);
 
 const address = document.createElement("span");
 address.textContent =
-  "address : No15a Jebba-Street, 123 East Street lagos, Nigeria `🔗`";
+  "Address : No15a Jebba-Street, 123 East Street lagos, Nigeria `🔗`";
 address.id = "location";
 address.style.textDecoration = "none";
 address.style.padding = "6px";
