@@ -8,6 +8,6 @@ contact.style.fontWeight = "bold";
 contact.style.placeItems = "center";
 
 const whatsappNumber = document.createElement("a");
-whatsappNumber.textContent = "Whatsapp";
+whatsappNumber.textContent = "Whatsapp(2348150672809)";
 whatsappNumber.href = "https://wa.me/+2348150672809";
 document.querySelector("ol").appendChild(whatsappNumber);
