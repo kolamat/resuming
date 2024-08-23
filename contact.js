@@ -7,4 +7,5 @@ contact.style.fontSize = "29px";
 contact.style.fontWeight = "bold";
 contact.style.placeItems = "center";
 
-const paraGraph = document.querySelectorAll("p");
+const paragraph = document.querySelector("p");
+paragraph.style.margin = "0px";
