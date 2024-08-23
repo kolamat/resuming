@@ -6,3 +6,17 @@ hobbies.style.width = "100%";
 hobbies.style.fontSize = "32px";
 hobbies.style.fontWeight = "bold";
 hobbies.style.placeItems = "center";
+
+const orderedLst = document.createElement("ol");
+orderedLst.id = "hobbiesItems";
+document.querySelector("body").appendChild(orderedLst);
+
+const list1 = document.createElement("li");
+list1.textContent = "list1";
+document.getElementById("hobbiesItems").appendChild(list1);
+const list2 = document.createElement("li");
+document.getElementById("hobbiesItems").appendChild(list2);
+const list3 = document.createElement("li");
+document.getElementById("hobbiesItems").appendChild(list3);
+const list4 = document.createElement("li");
+document.getElementById("hobbiesItems").appendChild(list4);
