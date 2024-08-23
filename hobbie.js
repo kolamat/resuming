@@ -9,7 +9,7 @@ hobbies.style.placeItems = "center";
 
 const orderedLst = document.createElement("ol");
 orderedLst.id = "hobbiesItems";
-document.querySelector("body").appendChild(orderedLst);
+document.getElementById("hobbies").appendChild(orderedLst);
 
 const list1 = document.createElement("li");
 list1.textContent = "list1";
