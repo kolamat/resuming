@@ -1,3 +1,8 @@
+const span = document.querySelector("span");
+span.style.display = "flex";
+span.style.alignItems = "center";
+span.style.justifyContent = "space-between";
+
 const primary = document.createElement("li");
 primary.textContent = "Ago-Egba Nursery and Primary School";
 document.getElementById("educations").appendChild(primary);
@@ -5,9 +10,6 @@ document.getElementById("educations").appendChild(primary);
 const juniorSecondary = document.createElement("li");
 juniorSecondary.textContent = "Denton Junior Grammar School";
 document.getElementById("educations").appendChild(juniorSecondary);
-
-// const hr = document.createElement("hr");
-// document.getElementById("educations").appendChild(hr);
 
 const seniorSecondary = document.createElement("li");
 seniorSecondary.textContent = "Lagos-City Senior Secondary School";
