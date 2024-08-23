@@ -7,6 +7,10 @@ contact.style.fontSize = "33px";
 contact.style.fontWeight = "bold";
 contact.style.placeItems = "center";
 
+const h1 = document.createElement("h1");
+h1.textContent = "My Contacts";
+document.getElementById("contact").appendChild(h1);
+
 const orderedList = document.querySelector("ol");
 // orderedList.style.gap = "10px";
 orderedList.style.display = "grid";
