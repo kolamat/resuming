@@ -6,8 +6,8 @@ const juniorSecondary = document.createElement("li");
 juniorSecondary.textContent = "Denton Junior Grammar School";
 document.getElementById("educations").appendChild(juniorSecondary);
 
-const hr = document.createElement("hr");
-document.getElementById("educations").appendChild(hr);
+// const hr = document.createElement("hr");
+// document.getElementById("educations").appendChild(hr);
 
 const seniorSecondary = document.createElement("li");
 seniorSecondary.textContent = "Lagos-City Senior Secondary School";
