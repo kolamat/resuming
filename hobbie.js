@@ -21,5 +21,5 @@ const list3 = document.createElement("li");
 list3.textContent = "I love listening to Advices, and";
 document.getElementById("hobbiesItems").appendChild(list3);
 const list4 = document.createElement("li");
-list4.textContent = "list4";
+list4.textContent = "I love listening to Musics.";
 document.getElementById("hobbiesItems").appendChild(list4);
