@@ -1,7 +1,14 @@
-const span = document.querySelector("span");
-span.style.display = "flex";
-span.style.alignItems = "center";
-span.style.justifyContent = "space-between";
+const span1 = document.getElementById("span1");
+span1.style.display = "flex";
+span1.style.alignItems = "center";
+span1.style.margin = "10px 0px";
+span1.style.justifyContent = "space-between";
+
+const span2 = document.getElementById("span2");
+span2.style.display = "flex";
+span2.style.alignItems = "center";
+span2.style.margin = "10px 0px";
+span2.style.justifyContent = "space-between";
 
 const primary = document.createElement("li");
 primary.textContent = "Ago-Egba Nursery and Primary School";
