@@ -1,7 +1,7 @@
 //CONTACT_SECTION
 const h1 = document.createElement("h1");
 h1.textContent = "My Contacts";
-document.querySelector("h1").appendChild(h1);
+document.getElementById("contact").appendChild(h1);
 
 const contact = document.getElementById("contact");
 contact.style.display = "grid";
