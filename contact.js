@@ -50,6 +50,23 @@ hrMiddle.style.margin = "15px 0px 0px 0px";
 hrMiddle.style.height = "6px";
 document.getElementById("mail").appendChild(hrMiddle);
 
+const outLook = document.createElement("a");
+outLook.id = "mail";
+outLook.textContent = "OutLook : Matanmidupe004@gmail.com `🔗`";
+outLook.href = "https://matanmidupe004@gmail.com";
+outLook.style.border = "3px solid #a6cee5";
+outLook.style.borderRadius = "24px 10px 10px 24px";
+outLook.style.padding = "6px";
+outLook.style.textDecoration = "none";
+document.querySelector("ol").appendChild(outLook);
+
+const hrMiddle = document.createElement("hr");
+hrMiddle.style.background = "#b06969";
+hrMiddle.style.width = "100%";
+hrMiddle.style.margin = "15px 0px 0px 0px";
+hrMiddle.style.height = "6px";
+document.getElementById("mail").appendChild(hrMiddle);
+
 const address = document.createElement("span");
 address.textContent =
   "Address : No15a Jebba-Street, 123 East Street lagos, Nigeria `🔗`";
