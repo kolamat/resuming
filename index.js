@@ -30,13 +30,3 @@ const higherEduation = document.createElement("li");
 higherEduation.textContent =
   "Ordinary national diplomal (OND) 1, computer Engineer - Yaba College of Technology (2023-2025)";
 document.getElementById("educations").appendChild(higherEduation);
-
-//HOBBIES_SECTION
-const hobbies = document.getElementById("hobbies");
-hobbies.style.display = "grid";
-hobbies.style.justifyContent = "center";
-
-//CONTACT_SECTION
-const contact = document.getElementById("contact");
-contact.style.display = "grid";
-contact.style.justifyContent = "center";
