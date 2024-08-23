@@ -1,11 +1,11 @@
 const primary = document.createElement("p")
   primary.textContent = "Ago-Egba Nursery and Primary School"
-document.querySelector("body").appendChild(primary)
+document.getElementById("education").appendChild(primary)
 
 const juniorSecondary = "Denton Junior Grammar School"
   juniorSecondary.textContent = "Ago-Egba Nursery and Primary School"
-document.querySelector("body").appendChild(juniorSecondary)
+document.getElementById("education").appendChild(juniorSecondary);
 
-const SeniorSecondary = "Lagos-City Senior Secondary School"
-  SeniorSecondary.textContent = "Ago-Egba Nursery and Primary School"
-document.querySelector("body").appendChild(SeniorSecondary)
+const seniorSecondary = "Lagos-City Senior Secondary School"
+  seniorSecondary.textContent = "Ago-Egba Nursery and Primary School"
+document.getElementById("education").appendChild(seniorSecondary);
