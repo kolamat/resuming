@@ -54,7 +54,7 @@ address.id = "location";
 address.style.textDecoration = "none";
 address.style.padding = "6px";
 address.style.border = "3px solid #a6cee5";
-address.style.borderRadius = "24px 10px 50px 24px";
+address.style.borderRadius = "24px 10px 25px 24px";
 document.querySelector("ol").appendChild(address);
 
 const hrBottom = document.createElement("hr");
