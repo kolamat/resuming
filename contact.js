@@ -12,7 +12,6 @@ contact.style.fontWeight = "bold";
 contact.style.placeItems = "center";
 
 const orderedList = document.querySelector("ol");
-// orderedList.style.gap = "10px";
 orderedList.style.display = "grid";
 orderedList.style.margin = "0px";
 orderedList.style.padding = "0px";
