@@ -1,8 +1,10 @@
 //CONTACT_SECTION
+// THE HEADING
 const h1 = document.querySelector("h1");
 h1.textContent = "My Contacts";
 h1.style.display = "flex";
 
+// THE MAIN CONTAINER
 const contact = document.getElementById("contact");
 contact.style.display = "grid";
 contact.style.justifyContent = "center";
@@ -11,11 +13,13 @@ contact.style.fontSize = "33px";
 contact.style.fontWeight = "bold";
 contact.style.placeItems = "center";
 
+//THE INFO CONTAINER
 const orderedList = document.querySelector("ol");
 orderedList.style.display = "grid";
 orderedList.style.margin = "0px";
 orderedList.style.padding = "0px";
 
+// WHATSAPP_NUMBER
 const whatsappNumber = document.createElement("a");
 whatsappNumber.id = "mobile";
 whatsappNumber.textContent = "Number : Whatsapp(2348150672809) `🔗`";
@@ -26,6 +30,7 @@ whatsappNumber.style.border = "3px solid #a6cee5";
 whatsappNumber.style.borderRadius = "50px 50px 5px 5px ";
 document.querySelector("ol").appendChild(whatsappNumber);
 
+// THE DIVIDING LINES
 const hr = document.createElement("hr");
 hr.style.background = "#b06969";
 hr.style.width = "100%";
@@ -33,6 +38,7 @@ hr.style.margin = "15px 0px 0px 0px";
 hr.style.height = "6px";
 document.getElementById("mobile").appendChild(hr);
 
+// GMAIL
 const email = document.createElement("a");
 email.id = "mail";
 email.textContent = "Email : Matanmidupe004@gmail.com `🔗`";
@@ -43,6 +49,7 @@ email.style.padding = "6px";
 email.style.textDecoration = "none";
 document.querySelector("ol").appendChild(email);
 
+// THE DIVIDING LINES
 const hrMiddle = document.createElement("hr");
 hrMiddle.style.background = "#b06969";
 hrMiddle.style.width = "100%";
@@ -50,6 +57,7 @@ hrMiddle.style.margin = "15px 0px 0px 0px";
 hrMiddle.style.height = "6px";
 document.getElementById("mail").appendChild(hrMiddle);
 
+//OUTLOOK_MAIL
 const outLook = document.createElement("a");
 outLook.id = "outlook";
 outLook.textContent = "OutLook : kolade2001@oulook.com `🔗`";
@@ -60,6 +68,7 @@ outLook.style.padding = "6px";
 outLook.style.textDecoration = "none";
 document.querySelector("ol").appendChild(outLook);
 
+// THE DIVIDING LINES
 const hrOutlook = document.createElement("hr");
 hrOutlook.style.background = "#b06969";
 hrOutlook.style.width = "100%";
@@ -67,6 +76,7 @@ hrOutlook.style.margin = "15px 0px 0px 0px";
 hrOutlook.style.height = "6px";
 document.getElementById("outlook").appendChild(hrOutlook);
 
+// ADDRESS
 const address = document.createElement("span");
 address.textContent =
   "Address : No15a Jebba-Street, 123 East Street lagos, Nigeria `🔗`";
@@ -77,6 +87,7 @@ address.style.border = "3px solid #a6cee5";
 address.style.borderRadius = "24px 10px 25px 24px";
 document.querySelector("ol").appendChild(address);
 
+// THE DIVIDING LINES
 const hrBottom = document.createElement("hr");
 hrBottom.style.background = "#b06969";
 hrBottom.style.margin = "15px 0px 0px 0px";
