@@ -15,7 +15,7 @@ const list1 = document.createElement("li");
 list1.textContent = "I love Playing Video Games.";
 document.getElementById("hobbiesItems").appendChild(list1);
 const list2 = document.createElement("li");
-list2.textContent = "list2";
+list2.textContent = "I love reading.";
 document.getElementById("hobbiesItems").appendChild(list2);
 const list3 = document.createElement("li");
 list3.textContent = "list3";
