@@ -26,9 +26,13 @@ list2.textContent = "I love reading 📚.";
 document.getElementById("hobbiesItems").appendChild(list2);
 
 const list3 = document.createElement("li");
-list3.textContent = "I love listening to Advices 💬, and";
+list3.textContent = "I love listening to Musics🎶.";
 document.getElementById("hobbiesItems").appendChild(list3);
 
 const list4 = document.createElement("li");
-list4.textContent = "I love listening to Musics🎶.";
+list4.textContent = "I love listening to Advices 💬, and";
 document.getElementById("hobbiesItems").appendChild(list4);
+
+const list5 = document.createElement("li");
+list5.textContent = "And most importantly, I love writing CODES 💻👨🏼‍💻";
+document.getElementById("hobbiesItems").appendChild(list5);
