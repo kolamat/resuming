@@ -9,7 +9,6 @@ const hobbies = document.getElementById("hobbies");
 hobbies.style.display = "grid";
 hobbies.style.marginLeft = "auto";
 hobbies.style.marginRight = "auto";
-// hobbies.style.justifyContent = "center";
 hobbies.style.width = "100%";
 hobbies.style.fontSize = "40px";
 hobbies.style.fontWeight = "normal";
