@@ -22,11 +22,11 @@ list1.textContent = "I love Playing Video Games 🎮.";
 document.getElementById("hobbiesItems").appendChild(list1);
 
 const list2 = document.createElement("li");
-list2.textContent = "I love listening to Advices 💬, and";
+list2.textContent = "I love reading 📚.";
 document.getElementById("hobbiesItems").appendChild(list2);
 
 const list3 = document.createElement("li");
-list3.textContent = "I love reading 📚.";
+list3.textContent = "I love listening to Advices 💬, and";
 document.getElementById("hobbiesItems").appendChild(list3);
 
 const list4 = document.createElement("li");
