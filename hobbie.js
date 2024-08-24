@@ -21,17 +21,45 @@ const list1 = document.createElement("li");
 list1.textContent = "I love Playing Video Games 🎮.";
 document.getElementById("hobbiesItems").appendChild(list1);
 
+const hr = document.createElement("hr");
+hr.style.background = "#b06969";
+hr.style.width = "100%";
+hr.style.margin = "15px 0px 0px 0px";
+hr.style.height = "6px";
+document.getElementById("mobile").appendChild(hr);
+
 const list2 = document.createElement("li");
 list2.textContent = "I love reading 📚.";
 document.getElementById("hobbiesItems").appendChild(list2);
+
+const hr = document.createElement("hr");
+hr.style.background = "#b06969";
+hr.style.width = "100%";
+hr.style.margin = "15px 0px 0px 0px";
+hr.style.height = "6px";
+document.getElementById("mobile").appendChild(hr);
 
 const list3 = document.createElement("li");
 list3.textContent = "I love listening to Musics🎶.";
 document.getElementById("hobbiesItems").appendChild(list3);
 
+const hr = document.createElement("hr");
+hr.style.background = "#b06969";
+hr.style.width = "100%";
+hr.style.margin = "15px 0px 0px 0px";
+hr.style.height = "6px";
+document.getElementById("mobile").appendChild(hr);
+
 const list4 = document.createElement("li");
 list4.textContent = "I love listening to Advices 💬, and";
 document.getElementById("hobbiesItems").appendChild(list4);
+
+const hr = document.createElement("hr");
+hr.style.background = "#b06969";
+hr.style.width = "100%";
+hr.style.margin = "15px 0px 0px 0px";
+hr.style.height = "6px";
+document.getElementById("mobile").appendChild(hr);
 
 const list5 = document.createElement("li");
 list5.textContent = "And most importantly, I love writing CODES 💻👨🏼‍💻";
