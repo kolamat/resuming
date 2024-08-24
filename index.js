@@ -11,7 +11,7 @@ div.style.justifyContent = "center";
 div.style.placeItems = "center";
 
 const image = document.getElementById("image");
-image.style.borderRadius = "10px";
+image.style.borderRadius = "15px";
 
 const about = document.getElementById("about");
 about.style.fontSize = "15px";
