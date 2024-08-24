@@ -2,7 +2,7 @@
 const h1 = document.createElement("h1");
 h1.textContent = "My Hobbies";
 h1.style.display = "flex";
-h1.style;
+h1.style.margin = "20.44px";
 document.getElementById("hobbies").appendChild(h1);
 
 const hobbies = document.getElementById("hobbies");
@@ -15,6 +15,7 @@ hobbies.style.placeItems = "center";
 
 const orderedLst = document.createElement("ol");
 orderedLst.id = "hobbiesItems";
+orderedLst.style.margin = "16px 0px";
 document.getElementById("hobbies").appendChild(orderedLst);
 
 const list1 = document.createElement("li");
