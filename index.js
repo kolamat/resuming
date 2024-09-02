@@ -1,3 +1,5 @@
+//HOMEPAGE_SETION
+
 const body = document.querySelector("body");
 body.style.overflow = "none";
 body.style.background = "#d9d9d9";

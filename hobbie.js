@@ -1,3 +1,5 @@
+//HOBBIES_SECTION
+
 // HOBBIES_BODY_SECTION
 const body = document.querySelector("body");
 body.style.overflow = "none";
