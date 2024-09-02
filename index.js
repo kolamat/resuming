@@ -1,5 +1,6 @@
 const body = document.querySelector("body");
 body.style.overflow = "none";
+body.style.background = "#d9d9d9";
 
 const h1 = document.querySelector("h1");
 h1.style.display = "flex";

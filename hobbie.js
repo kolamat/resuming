@@ -1,3 +1,8 @@
+// HOBBIES_BODY_SECTION
+const body = document.querySelector("body");
+body.style.overflow = "none";
+body.style.background = "#d9d9d9";
+
 //HOBBIES_SECTION
 const h1 = document.createElement("h1");
 h1.textContent = "My Hobbies";
