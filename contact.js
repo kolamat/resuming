@@ -31,9 +31,10 @@ whatsappNumber.id = "mobile";
 whatsappNumber.textContent = "Number : Whatsapp(2348150672809) `🔗`";
 whatsappNumber.href = "https://wa.me/+2348150672809";
 whatsappNumber.style.textDecoration = "none";
+whatsappNumber.style.color = "#ffffff";
 whatsappNumber.style.padding = "6px";
 whatsappNumber.style.borderRadius = "50px 50px 5px 5px ";
-whatsappNumber.style.borderBottom = "5px solid #000000";
+whatsappNumber.style.borderTop = "5px solid #000000";
 document.querySelector("ol").appendChild(whatsappNumber);
 
 // GMAIL
@@ -45,6 +46,7 @@ email.style.borderRadius = "24px 10px 10px 24px";
 email.style.padding = "6px";
 email.style.textDecoration = "none";
 email.style.borderRadius = "50px 50px 5px 5px ";
+email.style.color = "#ffffff";
 email.style.borderBottom = "5px solid #000000";
 document.querySelector("ol").appendChild(email);
 
@@ -55,6 +57,7 @@ outLook.textContent = "OutLook : kolade2001@oulook.com `🔗`";
 outLook.href = "https://kolade2001@oulook.com";
 outLook.style.borderRadius = "24px 10px 10px 24px";
 outLook.style.padding = "6px";
+outLook.style.color = "#ffffff";
 outLook.style.textDecoration = "none";
 outLook.style.borderRadius = "50px 50px 5px 5px ";
 outLook.style.borderBottom = "5px solid #000000";
@@ -67,6 +70,6 @@ address.textContent =
 address.id = "location";
 address.style.textDecoration = "none";
 address.style.padding = "6px";
-outLook.style.borderBottom = "5px solid #000000";
+address.style.borderBottom = "5px solid #ffffff";
 address.style.borderRadius = "24px 10px 25px 24px";
 document.querySelector("ol").appendChild(address);
