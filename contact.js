@@ -34,30 +34,26 @@ whatsappNumber.style.textDecoration = "none";
 whatsappNumber.style.color = "#ffffff";
 whatsappNumber.style.padding = "6px";
 whatsappNumber.style.borderRadius = "50px 50px 5px 5px ";
-whatsappNumber.style.borderTop = "5px solid #000000";
+whatsappNumber.style.borderBottom = "5px solid #000000";
 document.querySelector("ol").appendChild(whatsappNumber);
 
 // GMAIL
-const email = document.createElement("a");
+const email = document.createElement("p");
 email.id = "mail";
-email.textContent = "Email : Matanmidupe004@gmail.com `🔗`";
-email.href = "https://matanmidupe004@gmail.com";
+email.textContent = "Email : Matanmidupe004@gmail.com";
 email.style.borderRadius = "24px 10px 10px 24px";
-email.style.padding = "6px";
+email.style.margin = "10px 0px 10px 0px";
 email.style.textDecoration = "none";
 email.style.borderRadius = "50px 50px 5px 5px ";
-email.style.color = "#ffffff";
 email.style.borderBottom = "5px solid #000000";
 document.querySelector("ol").appendChild(email);
 
 //OUTLOOK_MAIL
-const outLook = document.createElement("a");
+const outLook = document.createElement("p");
 outLook.id = "outlook";
-outLook.textContent = "OutLook : kolade2001@oulook.com `🔗`";
-outLook.href = "https://kolade2001@oulook.com";
+outLook.textContent = "OutLook : kolade2001@oulook.com ";
 outLook.style.borderRadius = "24px 10px 10px 24px";
-outLook.style.padding = "6px";
-outLook.style.color = "#ffffff";
+outLook.style.margin = "10px 0px 10px 0px";
 outLook.style.textDecoration = "none";
 outLook.style.borderRadius = "50px 50px 5px 5px ";
 outLook.style.borderBottom = "5px solid #000000";
@@ -66,7 +62,7 @@ document.querySelector("ol").appendChild(outLook);
 // ADDRESS
 const address = document.createElement("span");
 address.textContent =
-  "Address : No15a Jebba-Street, 123 East Street lagos, Nigeria `🔗`";
+  "Address : No15a Jebba-Street, 123 East Street lagos, Nigeria";
 address.id = "location";
 address.style.textDecoration = "none";
 address.style.padding = "6px";
