@@ -32,55 +32,33 @@ whatsappNumber.textContent = "Number : Whatsapp(2348150672809) `🔗`";
 whatsappNumber.href = "https://wa.me/+2348150672809";
 whatsappNumber.style.textDecoration = "none";
 whatsappNumber.style.padding = "6px";
-whatsappNumber.style.border = "3px solid #000000";
 whatsappNumber.style.borderRadius = "50px 50px 5px 5px ";
+whatsappNumber.style.borderBottom = "5px solid #000000";
 document.querySelector("ol").appendChild(whatsappNumber);
-
-// THE DIVIDING LINES
-const hr = document.createElement("hr");
-hr.style.background = "#b06969";
-hr.style.width = "100%";
-hr.style.margin = "15px 0px 0px 0px";
-hr.style.height = "6px";
-document.getElementById("mobile").appendChild(hr);
 
 // GMAIL
 const email = document.createElement("a");
 email.id = "mail";
 email.textContent = "Email : Matanmidupe004@gmail.com `🔗`";
 email.href = "https://matanmidupe004@gmail.com";
-email.style.border = "3px solid #000000";
 email.style.borderRadius = "24px 10px 10px 24px";
 email.style.padding = "6px";
 email.style.textDecoration = "none";
+email.style.borderRadius = "50px 50px 5px 5px ";
+email.style.borderBottom = "5px solid #000000";
 document.querySelector("ol").appendChild(email);
-
-// THE DIVIDING LINES
-const hrMiddle = document.createElement("hr");
-hrMiddle.style.background = "#b06969";
-hrMiddle.style.width = "100%";
-hrMiddle.style.margin = "15px 0px 0px 0px";
-hrMiddle.style.height = "6px";
-document.getElementById("mail").appendChild(hrMiddle);
 
 //OUTLOOK_MAIL
 const outLook = document.createElement("a");
 outLook.id = "outlook";
 outLook.textContent = "OutLook : kolade2001@oulook.com `🔗`";
 outLook.href = "https://kolade2001@oulook.com";
-outLook.style.border = "3px solid #000000";
 outLook.style.borderRadius = "24px 10px 10px 24px";
 outLook.style.padding = "6px";
 outLook.style.textDecoration = "none";
+outLook.style.borderRadius = "50px 50px 5px 5px ";
+outLook.style.borderBottom = "5px solid #000000";
 document.querySelector("ol").appendChild(outLook);
-
-// THE DIVIDING LINES
-const hrOutlook = document.createElement("hr");
-hrOutlook.style.background = "#b06969";
-hrOutlook.style.width = "100%";
-hrOutlook.style.margin = "15px 0px 0px 0px";
-hrOutlook.style.height = "6px";
-document.getElementById("outlook").appendChild(hrOutlook);
 
 // ADDRESS
 const address = document.createElement("span");
@@ -89,14 +67,6 @@ address.textContent =
 address.id = "location";
 address.style.textDecoration = "none";
 address.style.padding = "6px";
-address.style.border = "3px solid #000000";
+outLook.style.borderBottom = "5px solid #000000";
 address.style.borderRadius = "24px 10px 25px 24px";
 document.querySelector("ol").appendChild(address);
-
-// THE DIVIDING LINES
-const hrBottom = document.createElement("hr");
-hrBottom.style.background = "#b06969";
-hrBottom.style.margin = "15px 0px 0px 0px";
-hrBottom.style.width = "100%";
-hrBottom.style.height = "6px";
-document.getElementById("location").appendChild(hrBottom);
