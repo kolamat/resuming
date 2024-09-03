@@ -33,6 +33,6 @@ seniorSecondary.textContent = "Lagos-City Senior Secondary School";
 document.getElementById("educations").appendChild(seniorSecondary);
 
 const higherEduation = document.createElement("li");
-higherEduation.textContent = "(NaN-NaN)";
+higherEduation.textContent = "Null";
 document.getElementById("educations").appendChild(higherEduation);
 // Ordinary national diplomal (OND), computer Engineer - Yaba College of Technology
