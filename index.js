@@ -34,5 +34,6 @@ document.getElementById("educations").appendChild(seniorSecondary);
 
 const higherEduation = document.createElement("li");
 higherEduation.textContent =
-  "Ordinary national diplomal (OND), computer Engineer - Yaba College of Technology (NaN-NaN)";
+  "(NaN-NaN)";
 document.getElementById("educations").appendChild(higherEduation);
+// Ordinary national diplomal (OND), computer Engineer - Yaba College of Technology 
